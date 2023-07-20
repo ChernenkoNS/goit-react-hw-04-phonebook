@@ -40,6 +40,7 @@ export function ContactForm({onSubmit}) {
         required
       />
       <label>Number</label>
+      
       <input
         value={number}
         onChange={handleChange}
